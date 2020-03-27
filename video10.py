@@ -25,7 +25,7 @@ for i in range(30):
 print(alumnos)
 
 promedios =[]
-for i in range (30):
+for i in range(30):
     notas = alumnos[i]
     suma = 0
     for nota in notas:
