@@ -13,6 +13,16 @@ def argumentos(*patitos):
 def kwargumentos(**kwpatitos):
 	print(kwpatitos)
 
+
+def suma(a,b):
+	return a+b
+def res(a,b):
+	return a-b
+def mul(a,b):
+	return a*b
+def div(a,b):
+
+    
 op = {
 	"suma": suma,
 	"resta": res,
